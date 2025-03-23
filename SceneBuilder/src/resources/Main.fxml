@@ -6,10 +6,12 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="382.0" prefWidth="586.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="uiBasic.Controller">
    <children>
-      <Button layoutX="248.0" layoutY="14.0" mnemonicParsing="false" onAction="#up" text="up" />
+      <Button layoutX="48.0" layoutY="39.0" mnemonicParsing="false" onAction="#upLeft" text="kona" />
       <Button layoutX="520.0" layoutY="188.0" mnemonicParsing="false" onAction="#right" text="right" />
       <Button layoutX="14.0" layoutY="188.0" mnemonicParsing="false" onAction="#left" text="left" />
       <Button layoutX="248.0" layoutY="343.0" mnemonicParsing="false" onAction="#down" text="down" />
-      <Circle fx:id="circle" fill="DODGERBLUE" layoutX="263.0" layoutY="188.0" radius="100.0" stroke="BLACK" strokeType="INSIDE" />
+
+      <Circle fx:id="circle" fill="DODGERBLUE" layoutX="271.0" layoutY="201.0" radius="85.0" stroke="BLACK" strokeType="INSIDE" />
+      <Button layoutX="248.0" layoutY="14.0" mnemonicParsing="false" onAction="#up" text="up" />
    </children>
 </AnchorPane>

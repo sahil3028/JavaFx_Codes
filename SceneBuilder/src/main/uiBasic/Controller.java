@@ -27,6 +27,10 @@ public class Controller {
         System.out.println("right");
         circle.setCenterX(y+=10);
     }
+    public void upLeft(ActionEvent e){
+        circle.setCenterX(y-=10);
+        circle.setCenterY(y-=10);
+    }
 
 
 
