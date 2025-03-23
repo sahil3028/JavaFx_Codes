@@ -1,9 +1,9 @@
-module test2 {
+module uiBasic {
     requires javafx.controls;
     requires javafx.fxml;
 
     requires org.kordamp.bootstrapfx.core;
 
-    opens test2 to javafx.fxml;
-    exports test2;
+    opens uiBasic to javafx.fxml;
+    exports uiBasic;
 }

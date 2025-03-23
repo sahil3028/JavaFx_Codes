@@ -6,6 +6,7 @@
       <list>
         <option value="$PROJECT_DIR$/test/pom.xml" />
         <option value="$PROJECT_DIR$/test2/pom.xml" />
+        <option value="$PROJECT_DIR$/SceneBuilder/pom.xml" />
       </list>
     </option>
   </component>
